@@ -124,7 +124,7 @@ stages:
       inputs:
         version: '$(dotnetSdkVersion)'
     - task: DotNetCoreCLI@2
-      displayName: 'Build the project - $(buildConfiguration)'
+      displayName: 'Build the minor fff project - $(buildConfiguration)'
       inputs:
         command: 'build'
         arguments: '--configuration $(buildConfiguration)'
